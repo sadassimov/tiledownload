@@ -26,4 +26,7 @@ Pyinstaller -F -w tiledonwload.py -i earth.ico
 ## 参考
 
 https://github.com/jimutt/tiles-to-tiff
-
+# pdfword
+40行代码实现pdf批量转docx小工具
+## 参考
+https://github.com/python-fan/pdf2word
