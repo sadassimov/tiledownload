@@ -1,32 +1,32 @@
-# tiledownload
+#tiledownload
 
 ```
-output = 输出文件夹
-shp = 边界shp数据
-zoom = 地图级别(高德山区可能只有16、arcgis的比较全、google需要你懂的)
+output = output folder
+shp = boundary shp data
+zoom = map level (there may only be 16 in Gaodeshan District, arcgis is relatively complete, Google requires you to understand)
 ```
 
 ```
-//打包命令
+//Packaging command
 Pyinstaller -F -w tiledonwload.py -i earth.ico
 ```
 
-请在文件夹中使用，exe 运行依赖于proj 文件夹。
+Please use it in the folder, exe running depends on the proj folder.
 
-如果卡死，请放着不管，是因为瓦片没有获取到在抛出错误（个人水平有限）。
+If it gets stuck, please leave it alone, because an error is thrown because the tiles are not acquired (personal level is limited).
 
-临时文件保存在/temp下面，记得删除哦，下次下载也会清空的。·
+Temporary files are saved under /temp. Remember to delete them. They will also be cleared next time you download them. ·
 
-实测3 GB 高德地图需要20分钟瓦片下载，20分钟拼接成tif。
+The actual measured 3 GB Amap map takes 20 minutes to download tiles and 20 minutes to splice into tif.
 
-若代码对您有帮助可关注下公众号哦。^-^
+If the code is helpful to you, please follow the official account. ^-^
 
-在小岛学gis的穆
+Mu who studied gis on a small island
 
-## 参考
+## refer to
 
 https://github.com/jimutt/tiles-to-tiff
-# pdfword
-40行代码实现pdf批量转docx小工具
-## 参考
+#pdfword
+40 lines of code to implement batch conversion of pdf to docx gadget
+## refer to
 https://github.com/python-fan/pdf2word
